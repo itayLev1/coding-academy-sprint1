@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,13 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Mine Sweeper</title>
 </head>
-<body>
-    <div class="game-container" onload="initGame()"></div>
 
-    <script src="js/util.js"></script>
-    <script src="js/game.js"></script>
+<body onload="initGame()">
+    <div class="timer"><span class="timer-inner"></span></div>
+    <div class="game-container"></div>
+
+    <script src="./js/util.js"></script>
+    <script src="./js/game.js"></script>
 </body>
+
 </html>
